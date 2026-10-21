@@ -156,9 +156,9 @@
       <div class="dots"><span></span><span></span><span></span></div>
       <div><span class="p">PS C:\it-toolkit&gt;</span> .\New-EmployeeOnboarding.ps1 `</div>
       <div>&nbsp;&nbsp;-CsvPath .\samples\new-hires.csv</div>
-      <div><span class="ok">[INFO]</span> Created user jdoe@lab.local in OU=IT</div>
+      <div><span class="ok">[INFO]</span> Created user jdoe@meridian.local in OU=IT</div>
       <div><span class="ok">[INFO]</span> Added jdoe to GG-IT-Staff, GG-VPN-Users</div>
-      <div><span class="ok">[INFO]</span> Created home folder \\FS01\Home$\jdoe</div>
+      <div><span class="ok">[INFO]</span> Created home folder \\MERIDIAN-DC01\Home$\jdoe</div>
       <div><span class="ok">[INFO]</span> Onboarding run finished. 4 account(s) processed.</div>
       <div><span class="p">PS C:\it-toolkit&gt;</span> <span class="dim">_</span></div>
     </div>
@@ -182,7 +182,7 @@
           <h3>IT Support Automation Toolkit</h3>
           <span class="status done">Complete</span>
         </div>
-        <p>PowerShell scripts that turn the most repetitive help desk tasks into one command, with audit logging and a preview mode on every change.</p>
+        <p>PowerShell scripts that turn the most repetitive help desk tasks into one command, with audit logging and a preview mode on every change. Built and tested in my Active Directory home lab.</p>
         <div class="label">What it does</div>
         <ul>
           <li>Onboards new hires: AD account, naming convention, OU, department groups and home folder, one at a time or in bulk from CSV</li>
@@ -201,9 +201,9 @@
           <h3>Active Directory Home Lab</h3>
           <span class="status wip">In progress</span>
         </div>
-        <p>A Windows Server domain built from scratch in virtual machines, with users, groups, OUs, Group Policy and domain-joined Windows 11 clients.</p>
+        <p>A Windows Server 2022 domain (meridian.local) in VirtualBox with a department OU structure, security groups and a hidden home-folder share. Next: a domain-joined Windows 11 client and Group Policy.</p>
         <div class="tags">
-          <span class="tag">Windows Server</span><span class="tag">AD DS</span><span class="tag">Group Policy</span><span class="tag">DNS/DHCP</span>
+          <span class="tag">Windows Server 2022</span><span class="tag">AD DS</span><span class="tag">DNS</span><span class="tag">SMB shares</span><span class="tag">Group Policy</span>
         </div>
         <div class="links"><span class="disabled">Write-up coming soon</span></div>
       </article>
